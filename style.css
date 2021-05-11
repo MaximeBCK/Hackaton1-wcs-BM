@@ -1,0 +1,115 @@
+/* -------------
+    GENERAL
+------------- */
+* {
+    font-family: 'Orbitron', sans-serif!important;
+}
+
+html {
+    background: black;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+p {
+    color: #b7b7b7;
+}
+
+
+/* -------------
+    HEADER
+------------- */
+
+/* Nav */
+.uk-navbar {
+    background: black;
+}
+.uk-navbar-nav a {
+    color: #fe9246!important;
+}
+
+/* Compteur */
+.uk-height-large.uk-background-cover.uk-light.uk-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uk-grid-column-small, .uk-grid-small {
+    margin-bottom: 85px;
+    margin-left: 0;
+    text-shadow: 1px 1px 20px #fe9246;
+}
+
+
+/* -------------
+    TIMELINE
+------------- */
+
+.uk-timeline .uk-timeline-item .uk-card {
+	max-height: 300px;
+}
+.uk-timeline .uk-timeline-item {
+    display: flex;
+    position: relative;
+}
+.uk-timeline .uk-timeline-item::before {
+    background: #0e0e0e;
+    content: "";
+    height: 100%;
+    left: 29px;
+    position: absolute;
+    top: 20px;
+    width: 1px;
+	z-index: -1;
+}
+.uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
+	margin-top: 20px;
+    width: 60px;
+    height: 40px;
+}
+.uk-timeline .uk-timeline-item .uk-timeline-content {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 0 0 1rem;
+}
+
+.uk-badge {
+    background: #0e0e0e;
+}
+
+.uk-card-header {
+    background: transparent;
+}
+
+.uk-card-body {
+    background: transparent;
+}
+.uk-card-default .uk-card-title {
+    color: #a9a9a9;
+}
+.uk-card-default .uk-card-header {
+    border-bottom: 1px solid #0e0e0e;
+}
+.uk-timeline {
+    padding: 30px;
+}
+h3.uk-card-title.uk-first-column {
+    font-size: 27px;
+}
+.uk-label-success {
+    background: #fe9246;
+    color: black;
+    font-weight: 500;
+}
+svg {
+    color: #fe9145;
+}
+
+.uk-card-default {
+    background: transparent;
+}
+
+
+
